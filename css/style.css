@@ -13,11 +13,39 @@
     z-index: 9999;
   }
   
-  .preloader img {
+.preloader img {
     width: 100px; /* Ajusta el tamaño de la imagen */
   }
   
   /* Estilo adicional para ocultar el preloader cuando la página está lista */
-  .loaded .preloader {
+.loaded .preloader {
     display: none;
   }
+
+  /*Header*/
+  /*Background navbar */
+
+.navbarPropio {
+  background-color: #121212;
+  background-image: linear-gradient(164deg, #121212 0%, #525453 50%, #9c9898 100%);
+
+  }
+
+.dropdown-menu {
+  background-color: #121212;
+  background-image: linear-gradient(164deg, #121212 0%, #525453 50%, #9c9898 100%);
+  }
+
+/*Fuentes de navbar */
+.navbarPropio a {
+  font-family: 'monserrat',sans-serif;
+  font-size: 20px;
+  color: white;
+  font-weight: bolder;
+}
+
+.dropdown-menu a {
+  font-family: 'monserrat',sans-serif;
+  font-size: 15px;
+  color: white;
+}
