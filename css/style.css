@@ -69,18 +69,6 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
-
-.botonesCarousel button {
-  width: 12px ; /* Ancho del indicador circular */
-  height: 12px; /* Alto del indicador circular */
-  border-radius: 100%; /* Hace que el indicador sea circular */
-  margin: 0 6px; /* Espacio entre los indicadores */
-  background-color: rgba(255, 255, 255, 0.5); /* Color de fondo semitransparente */
-  border: 1px solid #fff; /* Borde opcional */
-  cursor: pointer;
-  transition: background-color 0.3s ease; /* Efecto de transición suave */
-}
-
-.botonesCarousel button.active {
-  background-color: black; /* Color de fondo cuando está activo */
+.carousel-indicators {
+  height: 30px !important;
 }
