@@ -49,3 +49,38 @@
   font-size: 15px;
   color: white;
 }
+
+/*Carousel*/
+
+.carousel2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0; /* Establece el ancho completo */
+  bottom: 0; /* Establece la altura completa */
+  z-index: 1;
+}
+
+.carousel2 img {
+  width: 100%; /* Asegura que la imagen ocupe todo el ancho del carousel */
+  height: 100%; /* Asegura que la imagen ocupe todo el alto del carousel */
+  object-fit: cover; /* Ajusta la imagen para llenar el espacio sin distorsionarla */
+  opacity: 0.7;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+
+.botonesCarousel button {
+  width: 12px ; /* Ancho del indicador circular */
+  height: 12px; /* Alto del indicador circular */
+  border-radius: 100%; /* Hace que el indicador sea circular */
+  margin: 0 6px; /* Espacio entre los indicadores */
+  background-color: rgba(255, 255, 255, 0.5); /* Color de fondo semitransparente */
+  border: 1px solid #fff; /* Borde opcional */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Efecto de transición suave */
+}
+
+.botonesCarousel button.active {
+  background-color: black; /* Color de fondo cuando está activo */
+}
