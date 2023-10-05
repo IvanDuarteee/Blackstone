@@ -98,7 +98,18 @@
 
 .quienesSomos {
   position: absolute;
-  bottom: 17%;
+  bottom: 12%;
+}
+
+.quienesSomos h2{
+  text-align: center;
+  border-bottom: solid;
+  border-color: #d04143;
+}
+
+.quienesSomos p {
+  text-align: justify;
+  font-size: small;
 }
 
 
@@ -138,6 +149,11 @@
     text-shadow: 3px 3px 5px #121212; /* Agregar sombra de texto para resaltar */
     color: #fff; /* Cambiar el color del texto a blanco para que sea legible en el fondo negro */
   }
+
+  /*Sector quienes somos */
+  .quienesSomos{
+    bottom: 22%; 
+  }
 }
 
 /*Screen M */
@@ -145,5 +161,7 @@
   .carousel2 img {
     height: 600px;
   }
+
+ 
 
 }
