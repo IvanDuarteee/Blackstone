@@ -94,6 +94,15 @@
   color: #fff; /* Cambiar el color del texto a blanco para que sea legible en el fondo negro */
 }
 
+/*Quienes somos */
+
+.quienesSomos {
+  position: absolute;
+  bottom: 17%;
+}
+
+
+
 /*Media queries*/
 
 /*XS-Screen*/
