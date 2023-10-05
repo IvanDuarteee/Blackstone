@@ -87,9 +87,18 @@
   color: #fff; /* Opcional: Cambiar el color del texto */
 }
 
+.textoCarousel h5 {
+  font-size: 70px;
+  font-weight: bolder;
+  text-shadow: 3px 3px 5px #121212; /* Agregar sombra de texto para resaltar */
+  color: #fff; /* Cambiar el color del texto a blanco para que sea legible en el fondo negro */
+}
+
 /*Media queries*/
 
-@media (max-width:768px) {
+/*XS-Screen*/
+
+@media (max-width:767px) {
   /*NavbarPropio*/
   .navbarPropio img {
     height: 40px !important;
@@ -107,7 +116,7 @@
 
  .carousel-caption {
     position: absolute;
-    top: 60% !important;
+    top: 58% !important;
     left: 49% !important;
     transform: translate(-50%, -50%) !important;
     color: #fff; /* Opcional: Cambiar el color del texto */
@@ -120,4 +129,12 @@
     text-shadow: 3px 3px 5px #121212; /* Agregar sombra de texto para resaltar */
     color: #fff; /* Cambiar el color del texto a blanco para que sea legible en el fondo negro */
   }
+}
+
+/*Screen M */
+@media (min-width:992px) {
+  .carousel2 img {
+    height: 600px;
+  }
+
 }
