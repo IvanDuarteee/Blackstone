@@ -90,6 +90,20 @@
 /*Media queries*/
 
 @media (max-width:768px) {
+  /*NavbarPropio*/
+  .navbarPropio img {
+    height: 40px !important;
+  }
+
+  .navbarPropio a {
+    font-size: 15px;
+  }
+
+  /*Carousel responsive*/
+
+  .carousel-control-next, .carousel-control-prev {
+    top: 10% !important;
+  }
 
  .carousel-caption {
     position: absolute;
