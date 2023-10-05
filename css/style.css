@@ -95,6 +95,10 @@
     height: 40px !important;
   }
 
+  .navbarPropio a {
+    font-size: 15px;
+  }
+
   /*Carousel responsive*/
 
   .carousel-control-next, .carousel-control-prev {
