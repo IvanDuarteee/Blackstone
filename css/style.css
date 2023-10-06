@@ -96,11 +96,14 @@
 
 /*Quienes somos */
 
-.quienesSomos {
-  position: absolute;
-  bottom: 12%;
+.quienesSomos{
+  position: static;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8); /* Color de fondo (opcional) */
+  padding: 10px; /* Espaciado interno (opcional) */
+  color: #fff; /* Color del texto (opcional) */
 }
-
 .quienesSomos h2{
   text-align: center;
   border-bottom: solid;
@@ -110,6 +113,18 @@
 .quienesSomos p {
   text-align: justify;
   font-size: small;
+}
+
+.aparecer {
+  opacity: 0; /* Configura la opacidad inicial en 0 (invisible) */
+  animation: aparecer 3.5s ease-out forwards; /* Aplica una animación llamada "aparecer" durante 1 segundo */
+}
+
+@keyframes aparecer {
+  to {
+    opacity: 1; /* Cuando la animación se completa, establece la opacidad en 1 (visible) */
+    transform: translateY(0); /* Restablece la posición a su valor original */
+  }
 }
 
 
@@ -151,9 +166,7 @@
   }
 
   /*Sector quienes somos */
-  .quienesSomos{
-    bottom: 22%; 
-  }
+  
 }
 
 /*Screen M */
