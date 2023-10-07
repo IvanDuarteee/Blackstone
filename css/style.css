@@ -1,5 +1,10 @@
 /*Precarga*/
 
+body {
+ 
+}
+
+
 .preloader {
     position: fixed;
     top: 0;
@@ -22,6 +27,9 @@
     display: none;
   }
 
+  /*Loader*/
+ 
+
   /*Header*/
   /*Background navbar */
 
@@ -35,6 +43,26 @@
   background-color: #121212;
   background-image: linear-gradient(164deg, #121212 0%, #525453 50%, #9c9898 100%);
   }
+
+.navbarPropio {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 1; /* Opacidad inicial */
+  transition: opacity 0.3s; /* Transición suave de opacidad */
+  z-index: 1000; /* Asegura que el navbar esté por encima de otros elementos */
+}
+
+.navbar.scrolled {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0.8; /* Opacidad inicial */
+  transition: opacity 0.3s; /* Transición suave de opacidad */
+  z-index: 1000; /* Asegura que el navbar esté por encima de otros elementos */
+}
 
 /*Fuentes de navbar */
 .navbarPropio a {
@@ -53,12 +81,12 @@
 /*Carousel*/
 
 .carousel2 {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   right: 0; /* Establece el ancho completo */
   bottom: 0; /* Establece la altura completa */
-  z-index: 1;
+  z-index: 0;
 }
 
 .carousel2 img {
@@ -95,24 +123,19 @@
 }
 
 /*Quienes somos */
-
-.quienesSomos{
-  position: static;
-  bottom: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0.8); /* Color de fondo (opcional) */
-  padding: 10px; /* Espaciado interno (opcional) */
-  color: #fff; /* Color del texto (opcional) */
-}
 .quienesSomos h2{
   text-align: center;
   border-bottom: solid;
   border-color: #d04143;
+  color: black;
+  font-weight: bolder;
+  font-family: 'monserrat', sans-serif ;
 }
 
 .quienesSomos p {
-  text-align: justify;
-  font-size: small;
+  text-align: center;
+  font-size: large;
+  color:black;
 }
 
 .aparecer {
@@ -140,6 +163,10 @@
   }
 
   .navbarPropio a {
+    font-size: 15px;
+  }
+
+  .quienesSomos p {
     font-size: 15px;
   }
 
