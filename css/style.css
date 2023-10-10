@@ -2,6 +2,7 @@
 
 body {
  
+
 }
 
 
@@ -150,9 +151,49 @@ body {
   }
 }
 
+/*Pestañas*/
+#pestanas {
+  font-family: 'monserrant',sans-serif;
+}
+.botonesPestanas button {
+  font-weight: bolder;
+  color: white;
+  background-color: #da1212;
+
+}
+
+/* Estilo para los botones de pestaña activos dentro del contenedor .botonesPestanas */
+.botonesPestanas .nav-link.active {
+  background-color: black !important;
+  color: white; /* Cambia el color del texto si es necesario */
+}
+
+
+.contenidoPestanas {
+  align-items: center;
+}
+
+.mapa {
+  border: solid ;
+  border-color: #da1212 ;
+}
 
 
 /*Media queries*/
+/*Sm screen*/
+@media (max-width: 520px) {
+
+  .botonesPestanas button {
+    font-size: 12px !important;
+    padding: 9px;
+    }
+  .contenidoPestanas h5 {
+    font-weight: bolder;
+    border-bottom: solid;
+    border-color: #d04143;
+  }
+
+}
 
 /*XS-Screen*/
 
@@ -193,7 +234,19 @@ body {
   }
 
   /*Sector quienes somos */
-  
+  /*Sector pestañas*/
+.botonesPestanas button {
+font-size: 12px;
+}
+
+.contenidoPestanas h5 {
+  font-weight: bolder;
+  border-bottom: solid;
+  border-color: #d04143;
+}
+.contenidoPestanas p {
+  font-size: 15px;
+}
 }
 
 /*Screen M */
