@@ -1,5 +1,11 @@
 /*Precarga*/
 
+body {
+ 
+
+}
+
+
 .preloader {
     position: fixed;
     top: 0;
@@ -22,6 +28,9 @@
     display: none;
   }
 
+  /*Loader*/
+ 
+
   /*Header*/
   /*Background navbar */
 
@@ -35,6 +44,26 @@
   background-color: #121212;
   background-image: linear-gradient(164deg, #121212 0%, #525453 50%, #9c9898 100%);
   }
+
+.navbarPropio {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 1; /* Opacidad inicial */
+  transition: opacity 0.3s; /* Transición suave de opacidad */
+  z-index: 1000; /* Asegura que el navbar esté por encima de otros elementos */
+}
+
+.navbar.scrolled {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0.8; /* Opacidad inicial */
+  transition: opacity 0.3s; /* Transición suave de opacidad */
+  z-index: 1000; /* Asegura que el navbar esté por encima de otros elementos */
+}
 
 /*Fuentes de navbar */
 .navbarPropio a {
@@ -53,12 +82,12 @@
 /*Carousel*/
 
 .carousel2 {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   right: 0; /* Establece el ancho completo */
   bottom: 0; /* Establece la altura completa */
-  z-index: 1;
+  z-index: 0;
 }
 
 .carousel2 img {
@@ -94,7 +123,77 @@
   color: #fff; /* Cambiar el color del texto a blanco para que sea legible en el fondo negro */
 }
 
+/*Quienes somos */
+.quienesSomos h2{
+  text-align: center;
+  border-bottom: solid;
+  border-color: #d04143;
+  color: black;
+  font-weight: bolder;
+  font-family: 'monserrat', sans-serif ;
+}
+
+.quienesSomos p {
+  text-align: center;
+  font-size: large;
+  color:black;
+}
+
+.aparecer {
+  opacity: 0; /* Configura la opacidad inicial en 0 (invisible) */
+  animation: aparecer 3.5s ease-out forwards; /* Aplica una animación llamada "aparecer" durante 1 segundo */
+}
+
+@keyframes aparecer {
+  to {
+    opacity: 1; /* Cuando la animación se completa, establece la opacidad en 1 (visible) */
+    transform: translateY(0); /* Restablece la posición a su valor original */
+  }
+}
+
+/*Pestañas*/
+#pestanas {
+  font-family: 'monserrant',sans-serif;
+}
+.botonesPestanas button {
+  font-weight: bolder;
+  color: white;
+  background-color: #da1212;
+
+}
+
+/* Estilo para los botones de pestaña activos dentro del contenedor .botonesPestanas */
+.botonesPestanas .nav-link.active {
+  background-color: black !important;
+  color: white; /* Cambia el color del texto si es necesario */
+}
+
+
+.contenidoPestanas {
+  align-items: center;
+}
+
+.mapa {
+  border: solid ;
+  border-color: #da1212 ;
+}
+
+
 /*Media queries*/
+/*Sm screen*/
+@media (max-width: 520px) {
+
+  .botonesPestanas button {
+    font-size: 12px !important;
+    padding: 9px;
+    }
+  .contenidoPestanas h5 {
+    font-weight: bolder;
+    border-bottom: solid;
+    border-color: #d04143;
+  }
+
+}
 
 /*XS-Screen*/
 
@@ -105,6 +204,10 @@
   }
 
   .navbarPropio a {
+    font-size: 15px;
+  }
+
+  .quienesSomos p {
     font-size: 15px;
   }
 
@@ -129,6 +232,21 @@
     text-shadow: 3px 3px 5px #121212; /* Agregar sombra de texto para resaltar */
     color: #fff; /* Cambiar el color del texto a blanco para que sea legible en el fondo negro */
   }
+
+  /*Sector quienes somos */
+  /*Sector pestañas*/
+.botonesPestanas button {
+font-size: 12px;
+}
+
+.contenidoPestanas h5 {
+  font-weight: bolder;
+  border-bottom: solid;
+  border-color: #d04143;
+}
+.contenidoPestanas p {
+  font-size: 15px;
+}
 }
 
 /*Screen M */
@@ -136,5 +254,7 @@
   .carousel2 img {
     height: 600px;
   }
+
+ 
 
 }
