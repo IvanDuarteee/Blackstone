@@ -156,6 +156,7 @@ body {
   font-family: 'monserrant',sans-serif;
 }
 .botonesPestanas button {
+  margin: 4px;
   font-weight: bolder;
   color: white;
   background-color: #da1212;
@@ -181,11 +182,11 @@ body {
 
 /*Media queries*/
 /*Sm screen*/
-@media (max-width: 520px) {
+@media (max-width: 360px) {
 
   .botonesPestanas button {
-    font-size: 12px !important;
-    padding: 9px;
+    font-size: 10px !important;
+    padding: 9px !important;
     }
   .contenidoPestanas h5 {
     font-weight: bolder;
@@ -197,7 +198,7 @@ body {
 
 /*XS-Screen*/
 
-@media (max-width:767px) {
+@media (max-width:768px) {
   /*NavbarPropio*/
   .navbarPropio img {
     height: 40px !important;
@@ -236,7 +237,8 @@ body {
   /*Sector quienes somos */
   /*Sector pestañas*/
 .botonesPestanas button {
-font-size: 12px;
+  font-size: 12px ;
+  padding: 11px;
 }
 
 .contenidoPestanas h5 {
