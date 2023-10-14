@@ -15,13 +15,17 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari&family=Quicksand&family=Raleway:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="./scss/styles.css">
+    <!--
+      <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+        crossorigin="anonymous"
+      />
+    -->
     <link rel="icon" href="./svg/Logo-Flaticon-Sin-Fondo-OriginalBS-NC.svg" />
     <title>Blackstone NC ® | Construction INC</title>
   </head>
@@ -268,32 +272,197 @@
           </div>
         </article>
       </section>
-      <section id="pestanas">
-        <div class="container-fluid mt-2 d-flex flex-column align-items-center  botonesPestanas">
-          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-            <li class="nav-item" role="presentation">
-              <button class="nav-link active" id="pills-ubicacion-tab" data-bs-toggle="pill" data-bs-target="#pills-ubicacion" type="button" role="tab" aria-controls="pills-ubicacion" aria-selected="true">Ubicación</button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-metodo-tab" data-bs-toggle="pill" data-bs-target="#pills-metodo" type="button" role="tab" aria-controls="pills-metodo" aria-selected="false">Método</button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-eficiencia-tab" data-bs-toggle="pill" data-bs-target="#pills-eficiencia" type="button" role="tab" aria-controls="pills-eficiencia" aria-selected="false">Eficiencia</button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-passivhaus-tab" data-bs-toggle="pill" data-bs-target="#pills-passivhaus" type="button" role="tab" aria-controls="pills-passivhaus" aria-selected="false">Passivhaus</button>
-            </li>
-          </ul>
-        </div>
-          <div class="container d-flex flex-column align-items-center text-center">
+      <!--Pestañas-->
+      <section id="pestanas" class="d-flex flex-column flex-xl-row">
+      <!--Botones pestañas-->
+        <article class="articlePestanas">
+          <div
+            class="container-fluid mt-2 d-flex flex-column align-items-center botonesPestanas"
+          >
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active"
+                  id="pills-ubicacion-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-ubicacion"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-ubicacion"
+                  aria-selected="true"
+                >
+                  Ubicación
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-metodo-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-metodo"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-metodo"
+                  aria-selected="false"
+                >
+                  Método
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-eficiencia-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-eficiencia"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-eficiencia"
+                  aria-selected="false"
+                >
+                  Eficiencia
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-passivhaus-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-passivhaus"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-passivhaus"
+                  aria-selected="false"
+                >
+                  Passivhaus
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="container d-flex flex-column align-items-center text-center"
+          >
             <div class="tab-content contenidoPestanas" id="pills-tabContent">
-              <div class="tab-pane fade show active" id="pills-ubicacion" role="tabpanel" aria-labelledby="pills-ubicacion-tab" tabindex="0"><h5>Ubicación</h5><iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3223.5089598972672!2d-80.00635488432334!3d36.10545631419566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885303ff44c9e52b%3A0x5b104004b677c5f1!2s9058%20W%20Market%20St%2C%20Colfax%2C%20NC%2027235!5e0!3m2!1ses-419!2sus!4v1673452103511!5m2!1ses-419!2sus"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" alt="Mapa de situación"> </iframe><p> Nuestra sede se encuentra en Colfax, Carolina del Norte (EE.UU). Si nien nuestro ambito de trabajo se extiende a todo Carolina del Norte, y al extranjero en actuaciones concretas.</p></div>
-              <div class="tab-pane fade" id="pills-metodo" role="tabpanel" aria-labelledby="pills-metodo-tab" tabindex="0"><h5>Metodo</h5><p>La flexibilidad es la caracteristica principal de nuestro metodo de trabajo. Podemos intervenir en cualquier fase del proceso constructivo, desde la concepción hasta la ejecución llave en mano, aportando valor añadido en cada una de ellas.</p></div>
-              <div class="tab-pane fade" id="pills-eficiencia" role="tabpanel" aria-labelledby="pills-eficiencia-tab" tabindex="0"><h5>Eficiencia</h5><p>Los pilares de nuestra actividad son el conocimiento, la experiencia, la implicacion en cada uno de los proyectos y el compromiso en optimizar la solucion mas adecuada a cada cliente.</p><p><p>La eficiencia de nuestros procesos y la experiencia acumulada nos permite controlar plazos y costes para ofrecer fiabilidad total en nuestras actuaciones.</p></p></div>
-              <div class="tab-pane fade" id="pills-passivhaus" role="tabpanel" aria-labelledby="pills-passivhaus-tab" tabindex="0"><h5>Passivhaus</h5><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus saepe similique nemo a et aliquid necessitatibus enim dignissimos ipsum non, vitae explicabo, commodi laboriosam ut repellat possimus obcaecati numquam porro? item</p></div>
+              <div
+                class="tab-pane fade show active"
+                id="pills-ubicacion"
+                role="tabpanel"
+                aria-labelledby="pills-ubicacion-tab"
+                tabindex="0"
+              >
+                <h3>Ubicación</h3>
+                <iframe
+                  class="mapa"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3223.5089598972672!2d-80.00635488432334!3d36.10545631419566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885303ff44c9e52b%3A0x5b104004b677c5f1!2s9058%20W%20Market%20St%2C%20Colfax%2C%20NC%2027235!5e0!3m2!1ses-419!2sus!4v1673452103511!5m2!1ses-419!2sus"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  alt="Mapa de situación"
+                >
+                </iframe>
+                <p>
+                  Nuestra sede se encuentra en Colfax, Carolina del Norte
+                  (EE.UU). Si nien nuestro ambito de trabajo se extiende a todo
+                  Carolina del Norte, y al extranjero en actuaciones concretas.
+                </p>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-metodo"
+                role="tabpanel"
+                aria-labelledby="pills-metodo-tab"
+                tabindex="0"
+              >
+                <h3>Metodo</h3>
+                <p>
+                  La flexibilidad es la caracteristica principal de nuestro
+                  metodo de trabajo. Podemos intervenir en cualquier fase del
+                  proceso constructivo, desde la concepción hasta la ejecución
+                  llave en mano, aportando valor añadido en cada una de ellas.
+                </p>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-eficiencia"
+                role="tabpanel"
+                aria-labelledby="pills-eficiencia-tab"
+                tabindex="0"
+              >
+                <h3>Eficiencia</h3>
+                <p>
+                  Los pilares de nuestra actividad son el conocimiento, la
+                  experiencia, la implicacion en cada uno de los proyectos y el
+                  compromiso en optimizar la solucion mas adecuada a cada
+                  cliente.
+                </p>
+                <p>
+                  La eficiencia de nuestros procesos y la experiencia acumulada
+                  nos permite controlar plazos y costes para ofrecer fiabilidad
+                  total en nuestras actuaciones.
+                </p>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-passivhaus"
+                role="tabpanel"
+                aria-labelledby="pills-passivhaus-tab"
+                tabindex="0"
+              >
+                <h3>Passivhaus</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                  saepe similique nemo a et aliquid necessitatibus enim
+                  dignissimos ipsum non, vitae explicabo, commodi laboriosam ut
+                  repellat possimus obcaecati numquam porro? item
+                </p>
+              </div>
             </div>
           </div>
-        </div>
+        </article>
+      <!--Acordeon informacion-->
+        <article class="articleAccordion">
+          <div class="container accordion accordionPropio" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h4 class="accordion-header accorHeader">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                  Innovacion<img src="./svg/innovacion.svg" alt="innovacion" class="ms-auto">
+                </button>
+              </h4>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                <div class="accordion-body">
+                  <p>Nuestros desarrollos de I+D, la formacion continua y la relacion con las empresas punteras de Estados Unidos y Europa nos permiten estar en la vanguardia del sector y ofrecer las soluciones mas avanzadas a cada proyecto.</p>
+                  <p>Nuestros sistemas constructivos, nuevos materiales, nuevos procesos de edificacion...</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h4 class="accordion-header accorHeader">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  Medio Ambiente <img src="./svg/medioambiente.svg" alt="medioambiente" class="ms-auto">
+                </button>
+              </h4>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  <p>Utilizando materiales naturales, renovables y de baja energia de transformacion y siendo eficiente en los procesos conseguimos edificios con una minima hella ecologica y un maximo ahorro energetico.</p>
+                    <p>Utilizamos madera con certificacion de sostenibilidad de origen.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h4 class="accordion-header accorHeader">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                  Salud y Confort <img src="./svg/saludyconfort.svg" alt="health" class="ms-auto">
+                </button>
+              </h4>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  <p>Analizamos los factores ambientales, exteriores e interiores que influyen en su salud y confort.</p>
+                    <p>Podemos generar atmosferas interiores mas saludables y confortables, la sensacion termica y la regulacion de humedad de nuestras casas son fundamentales en ese aspecto.</p>  
+                    <p>Tambien podemos realizar diseños armonicos, asi como estudiar las radiaciones electromagneticas, las posibles geopatias y las eventuales fuentes de contaminacion quimica que pudieran afectarle.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
       </section>
     </main>
     <footer></footer>
