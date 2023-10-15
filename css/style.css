@@ -1,49 +1,51 @@
 /*Precarga*/
 
-body {
- 
-
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff; /* Fondo del preloader */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
 }
 
-
-.preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: #ffffff; /* Fondo del preloader */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 9999;
-  }
-  
 .preloader img {
-    width: 100px; /* Ajusta el tamaño de la imagen */
-  }
-  
-  /* Estilo adicional para ocultar el preloader cuando la página está lista */
+  width: 100px; /* Ajusta el tamaño de la imagen */
+}
+
+/* Estilo adicional para ocultar el preloader cuando la página está lista */
 .loaded .preloader {
-    display: none;
-  }
+  display: none;
+}
 
-  /*Loader*/
- 
+/*Loader*/
 
-  /*Header*/
-  /*Background navbar */
+/*Header*/
+/*Background navbar */
 
 .navbarPropio {
   background-color: #121212;
-  background-image: linear-gradient(164deg, #121212 0%, #525453 50%, #9c9898 100%);
-
-  }
+  background-image: linear-gradient(
+    164deg,
+    #121212 0%,
+    #525453 50%,
+    #9c9898 100%
+  );
+}
 
 .dropdown-menu {
   background-color: #121212;
-  background-image: linear-gradient(164deg, #121212 0%, #525453 50%, #9c9898 100%);
-  }
+  background-image: linear-gradient(
+    164deg,
+    #121212 0%,
+    #525453 50%,
+    #9c9898 100%
+  );
+}
 
 .navbarPropio {
   position: fixed !important;
@@ -67,14 +69,14 @@ body {
 
 /*Fuentes de navbar */
 .navbarPropio a {
-  font-family: 'monserrat',sans-serif;
+  font-family: 'monserrat', sans-serif;
   font-size: 20px;
   color: white;
   font-weight: bolder;
 }
 
 .dropdown-menu a {
-  font-family: 'monserrat',sans-serif;
+  font-family: 'monserrat', sans-serif;
   font-size: 15px;
   color: white;
 }
@@ -100,7 +102,6 @@ body {
 
 .carouselBotones button {
   opacity: 0.2;
-
 }
 
 .carouselBotones button.active {
@@ -124,19 +125,19 @@ body {
 }
 
 /*Quienes somos */
-.quienesSomos h2{
+.quienesSomos h2 {
   text-align: center;
   border-bottom: solid;
   border-color: #d04143;
   color: black;
   font-weight: bolder;
-  font-family: 'monserrat', sans-serif ;
+  font-family: 'monserrat', sans-serif;
 }
 
 .quienesSomos p {
   text-align: center;
   font-size: large;
-  color:black;
+  color: black;
 }
 
 .aparecer {
@@ -153,14 +154,13 @@ body {
 
 /*Pestañas*/
 #pestanas {
-  font-family: 'monserrant',sans-serif;
+  font-family: 'monserrat', sans-serif;
 }
 .botonesPestanas button {
   margin: 4px;
   font-weight: bolder;
   color: white;
   background-color: #da1212;
-
 }
 
 /* Estilo para los botones de pestaña activos dentro del contenedor .botonesPestanas */
@@ -169,36 +169,42 @@ body {
   color: white; /* Cambia el color del texto si es necesario */
 }
 
-
 .contenidoPestanas {
   align-items: center;
 }
 
-.mapa {
-  border: solid ;
-  border-color: #da1212 ;
+.contenidoPestanas h3 {
+  font-weight: bolder;
+  border-bottom: solid;
+  border-color: #d04143;
 }
 
+.mapa {
+  border: solid;
+  border-color: #da1212;
+}
+
+/*Acordeon informacion*/
+.accordion-item img {
+  height: 50px !important;
+}
+
+.accordion-item.accorHeader {
+  background-color: #da1212 !important;
+}
 
 /*Media queries*/
 /*Sm screen*/
 @media (max-width: 360px) {
-
   .botonesPestanas button {
     font-size: 10px !important;
     padding: 9px !important;
-    }
-  .contenidoPestanas h5 {
-    font-weight: bolder;
-    border-bottom: solid;
-    border-color: #d04143;
   }
-
 }
 
 /*XS-Screen*/
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   /*NavbarPropio*/
   .navbarPropio img {
     height: 40px !important;
@@ -214,19 +220,19 @@ body {
 
   /*Carousel responsive*/
 
-  .carousel-control-next, .carousel-control-prev {
+  .carousel-control-next,
+  .carousel-control-prev {
     top: 10% !important;
   }
 
- .carousel-caption {
+  .carousel-caption {
     position: absolute;
     top: 58% !important;
     left: 49% !important;
     transform: translate(-50%, -50%) !important;
     color: #fff; /* Opcional: Cambiar el color del texto */
   }
-  
-  
+
   .textoCarousel h5 {
     font-size: 45px !important;
     font-weight: bolder;
@@ -236,27 +242,36 @@ body {
 
   /*Sector quienes somos */
   /*Sector pestañas*/
-.botonesPestanas button {
-  font-size: 12px ;
-  padding: 11px;
-}
+  .botonesPestanas button {
+    font-size: 14px;
+    padding: 11px;
+  }
 
-.contenidoPestanas h5 {
-  font-weight: bolder;
-  border-bottom: solid;
-  border-color: #d04143;
-}
-.contenidoPestanas p {
-  font-size: 15px;
-}
+  .contenidoPestanas p {
+    font-size: 15px;
+  }
 }
 
 /*Screen M */
-@media (min-width:992px) {
+@media (min-width: 992px) {
   .carousel2 img {
     height: 600px;
   }
+}
 
- 
+/*Screen XL*/
 
+@media (min-width: 1200px) {
+
+  /*Acordeon*/
+  .articlePestanas {
+    width: 50%;
+  }
+  .articleAccordion {
+    width: 50%;
+  }
+
+  .accordionPropio {
+    margin-top: 10px;
+  }
 }
