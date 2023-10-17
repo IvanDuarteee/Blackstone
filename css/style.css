@@ -196,8 +196,8 @@ body{
   height: 50px !important;
 }
 
-.accorHeader.accordion-button {
-  background-color: #da1212 !important;
+.accordion-button.collapsed {
+  color: white;
 }
 
 .accorHeader h4 {
