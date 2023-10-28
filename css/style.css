@@ -39,6 +39,10 @@ body{
 }
 
 
+.dropdown-menu {
+  background-color: #121212;
+}
+
 .navbarPropio {
   position: fixed !important;
   top: 0;
@@ -259,6 +263,15 @@ body{
 
   .contenidoPestanas p {
     font-size: 15px;
+  }
+
+  .contenidoContrata {
+    text-align: center;
+    align-items: center;
+  }
+
+  .botonContacto {
+    margin-bottom: 15px;
   }
 }
 
