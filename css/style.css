@@ -193,6 +193,8 @@ body{
   color: white !important;
 }
 
+/*Patrocinadores */
+
 .patrocinadores {
   background-color: #f1f1f1;
   font-family: 'monserrat', sans-serif;
@@ -204,6 +206,12 @@ body{
 }
 
 .enlacePatrocinador:hover {
+  color: #da1212;
+}
+
+/*Contratacion*/
+
+.buscamosTecnicos {
   color: #da1212;
 }
 
