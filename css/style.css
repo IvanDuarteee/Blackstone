@@ -36,22 +36,10 @@ body{
 
 .navbarPropio {
   background-color: #121212;
-  background-image: linear-gradient(
-    164deg,
-    #121212 0%,
-    #525453 50%,
-    #9c9898 100%
-  );
 }
 
 .dropdown-menu {
   background-color: #121212;
-  background-image: linear-gradient(
-    164deg,
-    #121212 0%,
-    #525453 50%,
-    #9c9898 100%
-  );
 }
 
 .navbarPropio {
@@ -274,6 +262,15 @@ body{
 
   .contenidoPestanas p {
     font-size: 15px;
+  }
+
+  .contenidoContrata {
+    text-align: center;
+    align-items: center;
+  }
+
+  .botonContacto {
+    margin-bottom: 15px;
   }
 }
 
