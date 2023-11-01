@@ -1,3 +1,5 @@
+
+
 * {
   margin: 0;
   border: 0;
@@ -10,12 +12,52 @@
   height: 450px;
 }
 
+
+.articleContact {
+   background:  linear-gradient(90deg,#da1212 0,#f26060 50%,#da1212);
+}
+.franjaContact {
+
+    padding: 20px;
+
+}
+
+.franjaContact h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+
+.contenedorMain {
+    width: 100%;
+    position: absolute;
+    top: 10%;
+  }
+
+
+
+
+
+@media (max-width: 768px){
+
+    .contenedorMain {
+        top: 7%;
+    }
+    
+    .franjaContact {
+    padding: 15px;
+    }
+
+
+
+}  
+
+
 @media (min-width: 991px) {
   .mapaContact {
     height: 500px;
   }
   .contenedorMain {
-    position: relative;
-    top: -80px;
   }
 }
