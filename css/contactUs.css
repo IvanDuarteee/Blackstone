@@ -35,11 +35,21 @@
     top: 10%;
   }
 
+/*Formulario y contacto*/
+
+.tituloFormContact {
+  border-bottom: solid;
+  border-width: 2px;
+  border-color: da1212;
+
+}
+ 
 
 
 
 
-@media (max-width: 768px){
+
+@media (max-width: 767px){
 
     .contenedorMain {
         top: 7%;
@@ -48,6 +58,33 @@
     .franjaContact {
     padding: 15px;
     }
+
+    .contenedorContactos {
+      margin-bottom: 40px;
+      width: 100% !important;
+    }
+
+    .contenedorImput {
+
+      width: 100% !important;
+      
+    }
+
+    #contactForm input {
+      padding: 11px;
+      margin-bottom: 10px;
+    }
+
+    .botonForm {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .botonForm button {
+      width: 40%;
+    }
+
+
 
 
 
@@ -58,6 +95,5 @@
   .mapaContact {
     height: 500px;
   }
-  .contenedorMain {
-  }
+ 
 }
