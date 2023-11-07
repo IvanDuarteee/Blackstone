@@ -101,7 +101,7 @@
 }  
 @media (width:768px)  {
   main {
-    margin-top: -66px;
+    margin-top: 66px !important;
   }
 
 }
