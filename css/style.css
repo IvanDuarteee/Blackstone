@@ -1,10 +1,4 @@
-body{
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  margin: 0;
-  justify-content: space-between;
-}
+
 /*Precarga*/
 
 .preloader {
@@ -281,6 +275,8 @@ body{
   .botonContacto {
     margin-bottom: 15px;
   }
+
+ 
 }
 
 /*Screen M */
@@ -293,6 +289,10 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: end;
+  }
+
+  .contenedorTecnicos {
+    margin-top: -20px; 
   }
 }
 
