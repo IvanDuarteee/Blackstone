@@ -1,0 +1,9 @@
+.listaTexto {
+    text-align: justify;
+
+}
+
+.listaTexto a {
+    text-decoration: none;
+    color: #da1212;
+}
