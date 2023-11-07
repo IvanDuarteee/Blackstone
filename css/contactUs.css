@@ -31,8 +31,7 @@
 
 .contenedorMain {
     width: 100%;
-    position: absolute;
-    top: 10%;
+    margin-top: 91px;
   }
 
 /*Formulario y contacto*/
@@ -59,9 +58,6 @@
   color: #da1212;
 }
 
-footer {
-  bottom: -145%;
-}
 
 
 
@@ -69,7 +65,7 @@ footer {
 @media (max-width: 767px){
 
     .contenedorMain {
-        top: 7%;
+        margin-top: 66px;
     }
     
     .franjaContact {
@@ -101,19 +97,13 @@ footer {
       width: 40%;
     }
 
-footer {
-  bottom: -185%;
-}
 
 }  
-@media (width:768px) {
+@media (width:768px)  {
   main {
-    top: 7% !important;
+    margin-top: -66px;
   }
 
-  footer {
-    bottom: -139%;
-}
 }
 
 
@@ -125,10 +115,5 @@ footer {
 }
 
 @media (min-width: 1920px) {
- main {
-  top: 9% !important;
- }
-  footer {
-    bottom: -130% !important;
-  }
+
 }
