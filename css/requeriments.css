@@ -1,0 +1,19 @@
+.listaTexto {
+    text-align: justify;
+
+}
+
+.listaTexto a {
+    text-decoration: none;
+    color: #da1212;
+}
+
+.sampleForms a{
+    text-decoration: none;
+    color: #da1212;
+}
+
+.sampleForms a:hover {
+    color: black;
+}
+
