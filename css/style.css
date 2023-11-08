@@ -330,3 +330,8 @@ footer li:not(:last-child):after {
   margin: 0 5px;
   color: #ffffff; /* color de la barra */
 }
+
+.transition-fade-in {
+  opacity: 0;
+  transition: opacity 3s ease-in-out;
+}
