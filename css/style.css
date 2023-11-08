@@ -211,7 +211,7 @@
 
 /*Media queries*/
 /*Sm screen*/
-@media (max-width: 360px) {
+@media (max-width: 405px) {
   .botonesPestanas button {
     font-size: 10px !important;
     padding: 9px !important;
