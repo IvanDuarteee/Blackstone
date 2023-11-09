@@ -25,3 +25,17 @@
 
 
   /*Diversity*/
+
+
+  /*LegalWarining*/
+
+  .infoGeneral a{
+    text-decoration: none;
+    color: white;
+
+  }
+
+  .avisosLegales a {
+    text-decoration: none;
+    color: #da1212;
+  }
