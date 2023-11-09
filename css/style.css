@@ -331,6 +331,23 @@ footer li:not(:last-child):after {
   color: #ffffff; /* color de la barra */
 }
 
+.linksFooter a{
+  text-decoration: none;
+  color: #f1f1f1;
+  font-weight:700;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.linksFooter a:hover{
+  color: #da1212;
+}
+
+.iconosFooter:hover {
+  color: #da1212;
+}
+
+
 .transition-fade-in {
   opacity: 0;
   transition: opacity 3s ease-in-out;
