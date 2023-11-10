@@ -43,3 +43,28 @@
   .avisosLegales {
     text-align: justify;
   }
+
+
+
+  /*Projects*/
+
+  .contenidoProjects a {
+    text-decoration: none;
+    color: #da1212;
+    font-size: 30px;
+  }
+
+  .contenidoProjects a:hover {
+    color: black;
+  }
+
+  video {
+    border: solid;
+    color: #da1212;
+    border-width: 2px;
+  }
+
+  .dropdownProjects ul{
+    background-color: #da1212 !important;
+
+  }
