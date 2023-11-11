@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">\
+  <link rel="icon" href="img2/Logo-Flaticon-Sin-Fondo-OriginalBS-NC.svg"/>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <title>Online Employment Application | Blackstone NC ®</title>
+</head>
+<body>
+  <div class="container my-5">
+    <!-- Seccion-2-Formulario -->
+    <div class="col-sm-12 col-md-12-col-lg-12 col-xl-12">
+      <p class="text-justify">
+        Siempre estamos contratando buenas personas, particularmente en áreas como gerente de proyecto, supervisor de proyecto, trabajador general de la construcción y administrativo.
+        <br>Complete y envíe la solicitud indicando su área de interés y haremos un seguimiento si hay un puesto vacante que se adapte a sus habilidades y experiencia.
+      </p>
+      <div id="employee-application">
+        <h4 class="mt-5 mb-4">Employment Desired</h4>
+        <form class="row g-3 was-validated" novalidate id="principality-form" action="">
+
+          <!-- Option Position Appied For -->
+          <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+            <label for="positionAppied" class="form-label">Position Appied For <span style="color: #da1212;">*</span> </label>
+            <input type="text" class="form-control" id="positionAppied" required>
+            <div class="valid-feedback">
+              Posición válida
+            </div>
+            <div class="invalid-feedback">
+              Proporcione una posición válida
+            </div>
+          </div>
+
+          <!-- Option Salary Desired -->
+          <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+            <label for="salaryDesired" class="form-label">Salary Desired <span style="color: #da1212;">*</span></label>
+            <input type="text" class="form-control" id="salaryDesired" required>
+            <div class="valid-feedback">
+              Salario válido
+            </div>
+            <div class="invalid-feedback">
+              Proporcione un salario válido
+            </div>
+          </div>
+
+          <!-- Option Job Reference -->
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <label for="jobReference" class="form-label">Job Reference <span style="color: #da1212;">*</span></label>
+            <input type="text" class="form-control" id="jobReference" required>
+            <div class="valid-feedback">
+              Trabajo válido
+            </div>
+            <div class="invalid-feedback">
+              Proporcione un trabajo válido
+            </div>
+          </div>
+
+          <!-- Option Vacancy -->
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <label for="vacancy" class="form-label">How did you hear about this vacancy? <span style="color: #da1212;">*</span></label>
+            <input type="text" class="form-control" id="vacancy" required>
+            <div class="valid-feedback">
+              Referencia válida
+            </div>
+            <div class="invalid-feedback">
+              Proporcione una referencia válida
+            </div>
+          </div>
+          
+          <h4 class="mt-5 mb-4">Personal Information</h4>
+          
+          <!-- Option Name -->
+          <div class="col-sm-9 col-md-9 col-lg-9 col-xl-9">
+            <label for="name" class="form-label">Name <span style="color: #da1212;">*</span></label>
+            <input type="text" class="form-control" id="name" required>
+            <div class="valid-feedback">
+              Nombre válido
+            </div>
+            <div class="invalid-feedback">
+              Proporcione un nombre válido
+            </div>
+          </div>
+
+          <!-- Opcion Social Security -->
+          <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+            <label for="socialSecurity" class="form-label">Social Security <span style="color: #da1212;">*</span></label>
+            <input type="tel" class="form-control" id="ophone" name="Ophone" placeholder="123-45-67890" pattern="[0-9]{3}-[0-9]{2}-[0-9]{5}">
+            <div class="valid-feedback">
+              Numero válido
+            </div>
+            <div class="invalid-feedback">
+              Número inválido
+            </div>
+          </div>
+
+           <!-- Option Last Name -->
+           <div class="col-sm-9 col-md-9 col-lg-9 col-xl-9">
+            <label for="lastName" class="form-label">Last Name <span style="color: #da1212;">*</span></label>
+            <input type="text" class="form-control" id="lastName" required>
+            <div class="valid-feedback">
+              Nombre válido
+            </div>
+            <div class="invalid-feedback">
+              Proporcione un nombre válido
+            </div>
+          </div>
+
+          <!-- Opcion Tax ID Number -->
+          <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+            <label for="taxIDNumber" class="form-label">Tax ID Number <span style="color: #da1212;">*</span></label>
+            <input type="tel" class="form-control" id="taxIDNumber" name="Ophone" placeholder="123-45-6789" pattern="[0-9]{3}-[0-9]{2}-[0-9]{4}">
+            <div class="valid-feedback">
+              Numero válido
+            </div>
+            <div class="invalid-feedback">
+              Número inválido
+            </div>
+          </div>
+
+          <!-- Option Address -->
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <label for="address" class="form-label">Address<span style="color: #da1212;">*</span></label>
+            <input type="text" class="form-control" id="address" name="address" placeholder="123 North Main St." required>
+            <div class="valid-feedback">
+              Direccion válida
+            </div>
+            <div class="invalid-feedback">
+              Direccion inválida
+            </div>
+          </div>
+
+          <!-- Option State -->
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+            <label for="state" class="form-label">State <span style="color: #da1212;">*</span></label>
+            <select id="state" class="form-select" required>
+              <option value="" selected disabled>Seleccionar</option>
+              <option>AK</option>
+              <option>AL</option>
+              <option>AR</option>
+              <option>AZ</option>
+              <option>CA</option>
+              <option>CO</option>
+              <option>CT</option>
+              <option>DE</option>
+              <option>FL</option>
+              <option>GA</option>
+              <option>HI</option>
+              <option>IA</option>
+              <option>ID</option>
+              <option>IL</option>
+              <option>IN</option>
+              <option>KS</option>
+              <option>KY</option>
+              <option>LA</option>
+              <option>MA</option>
+              <option>MD</option>
+              <option>ME</option>
+              <option>MI</option>
+              <option>MN</option>
+              <option>MO</option>
+              <option>MS</option>
+              <option>MT</option>
+              <option>NC</option>
+              <option>ND</option>
+              <option>NE</option>
+              <option>NH</option>
+              <option>NJ</option>
+              <option>NM</option>
+              <option>NV</option>
+              <option>NY</option>
+              <option>OH</option>
+              <option>OK</option>
+              <option>OR</option>
+              <option>RI</option>
+              <option>SC</option>
+              <option>SD</option>
+              <option>TN</option>
+              <option>TX</option>
+              <option>UT</option>
+              <option>VA</option>
+              <option>VT</option>
+              <option>WA</option>
+              <option>WI</option>
+              <option>WV</option>
+              <option>WY</option>
+            </select>
+            <div class="valid-feedback">
+              Estado válido
+            </div>
+            <div class="invalid-feedback">
+              Seleccione un estado válido.
+            </div>
+          </div>
+          
+
+          <!-- Option City -->
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+            <label for="city" class="form-label">City <span style="color: #da1212;">*</span></label>
+            <input type="text" class="form-control" id="city" name="city" value="" required>
+            <div class="valid-feedback">
+              Ciudad válida
+            </div>
+            <div class="invalid-feedback">
+              Proporcione una ciudad válida.
+            </div>
+          </div>
+
+          <!-- Option Zip Code -->
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+            <label for="zipCode" class="form-label">City <span style="color: #da1212;">*</span></label>
+            <input type="tel" class="form-control" id="zipCode" name="zipCode" placeholder="12345" pattern="[0-9]{5}" required>
+            <div class="valid-feedback">
+              Codigo Postal válido
+            </div>
+            <div class="invalid-feedback">
+              Proporcione un Codigo Postal válido.
+            </div>
+          </div>
+          
+          <!-- Option Telephone number -->
+          <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+            <label for="telPhone" class="form-label">Telephone Number <span style="color: #da1212;">*</span> </label>
+            <input type="tel" class="form-control" id="telPhone" name="Mphone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            <div class="valid-feedback">
+              Numero de telefeno válido
+            </div>
+            <div class="invalid-feedback">
+              Proporcione un número de telefono válido.
+            </div>
+          </div>
+
+          <!-- Option Mobile number -->
+          <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+            <label for="mobilePhone" class="form-label">Mobile Number <span style="color: #da1212;">*</span> </label>
+            <input type="tel" class="form-control" id="mobilePhone" name="Mphone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            <div class="valid-feedback">
+              Numero de telefeno celular válido
+            </div>
+            <div class="invalid-feedback">
+              Proporcione un número de telefono celular válido.
+            </div>
+          </div>
+
+          <!-- Opcion Email -->
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <label for="eaddress" class="form-label">Email Address <span style="color: #da1212;">*</span></label>
+            <input type="text" class="form-control" id="eaddress" name="Email" value="" required>
+            <div class="valid-feedback">
+              Correo Electronico válido
+            </div>
+            <div class="invalid-feedback">
+              Proporcione un Correo Electronico válido.
+            </div>
+          </div>
+
+          <!-- Questions 1 -->
+          <div class="form-check">
+              <p>Are you employed now?</p>
+            <label for="check1">
+              Yes
+            </label>
+            <input type="checkbox" value="" id="check1">
+            <label for="check2">
+              No
+            </label>
+            <input type="checkbox" value="" id="check2">
+          </div>
+
+          <!-- Questions 2 -->
+          <div class="form-check">
+            <p>If so, may we inquire of your present employer?</p>
+            <label for="check3">
+              Yes
+            </label>
+            <input type="checkbox" value="" id="check3">
+            <label for="check4">
+              No
+            </label>
+            <input type="checkbox" value="" id="check4">
+          </div>
+
+          <!-- Questions 3 -->
+          <div class="form-check">
+            <p>Ever Applied To This Company Before?</p>
+            <label for="check5">
+              Yes
+            </label>
+            <input type="checkbox" value="" id="check5">
+            <label for="check6">
+              No
+            </label>
+            <input type="checkbox" value="" id="check6">
+          </div>
+
+          <!-- Subcontractor is a -->
+
+          <h4 class="mt-5 mb-4">Personal Information</h4>
+
+          <!-- Checkbox Individual -->
+          <div class="form-check">
+            <label for="individualCheck">
+              Individual
+            </label>
+            <input type="checkbox" value="" id="individualCheck">
+          </div>
+
+          <!-- Checkbox Proprietorship -->
+          <div class="form-check">
+            <label for="proprietorshipCheck">
+              Proprietorship
+            </label>
+            <input type="checkbox" value="" id="proprietorshipCheck">
+          </div>
+
+          <!-- Checkbox Partnership -->
+          <div class="form-check">
+            <label for="partnershipCheck">
+              Partnership
+            </label>
+            <input type="checkbox" value="" id="partnershipCheck">
+          </div>
+
+          <!-- Checkbox Corporation -->
+          <div class="form-check">
+            <label for="corporationCheck">
+              Corporation
+            </label>
+            <input type="checkbox" value="" id="corporationCheck">
+          </div>
+
+          <!-- Checkbox Other -->
+          <div class="form-check">
+            <label for="otherCheck">
+              Other
+            </label>
+            <input type="checkbox" value="" id="otherCheck">
+          </div>
+
+
+          <!-- General Information -->
+
+          <h4 class="mt-5 mb-4">General Information</h4>
+
+          <!-- Special Trainining -->
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <label for="specialTrainining" class="form-label">Special Trainining<span style="color: #da1212;">*</span></label>
+            <input type="text" class="form-control" id="specialTrainining" name="specialTrainining" value="">
+          </div>
+
+          <!-- Special Kills -->
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <label for="specialKills" class="form-label">Special Kills<span style="color: #da1212;">*</span></label>
+            <input type="text" class="form-control" id="specialKills" name="specialKills" value="">
+          </div>
+
+          <!-- U.S Military Or Naval Services -->
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <label for="militaryServices" class="form-label">U.S Military Or Naval Services<span style="color: #da1212;">*</span></label>
+            <input type="text" class="form-control" id="militaryServices" name="militaryServices" value="">
+          </div>
+
+          <!-- References -->
+
+          <h4 class="mt-5 mb-4">References</h4>
+
+          <!-- Reference Name -->
+          <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+            <label for="referenceName" class="form-label">Name Reference</label>
+            <input type="text" class="form-control" id="referenceName" name="referenceName" value="" required>
+            <div class="valid-feedback">
+              Nombre válido
+            </div>
+            <div class="invalid-feedback">
+              Proporcione un nombre válido.
+            </div>
+          </div>
+
+          <!-- Telephone Number Reference -->
+          <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+            <label for="mobilePhoneRef" class="form-label">Mobile Number Reference <span style="color: #da1212;">*</span> </label>
+            <input type="tel" class="form-control" id="mobilePhoneRef" name="mobilePhoneRef" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            <div class="valid-feedback">
+              Numero de telefeno celular válido
+            </div>
+            <div class="invalid-feedback">
+              Proporcione un número de telefono celular válido.
+            </div>
+          </div>
+
+
+      </form>
+      <!-- Consentimiento -->
+      <div class="formulario-application">
+        <form class="datos-consentimiento">
+          <label class="titulo" for="text">Consent
+            <span>*</span>
+          </label>
+          <br>
+            <div class="checkbox">
+              <ul class="col-checkbox">
+                <li class="col-checkbox-content">
+                  <input type="checkbox" id="checkbox 1" name="fav_consentimiento" value="fav_consentimiento">
+                  <label for="col-checkbox-content-1" class="opcion 1">I agree to the privacy policy
+                  </label>
+                </li>
+                <p>
+                  I authorize investigation of all statements, references and employers listed above to give Blackstone NC ®. any and all information concerning my previous employment and any pertinent information they may have, personal and otherwise, and I release Blackstone NC ®. from all liability from any damage that may result from utilization of such information.
+                </p>
+              </ul>
+            </div>
+        </form>
+      </div>
+      <div>
+        <!-- Submit -->
+      <input id="submit" type="submit" value="Submit">
+      </div>
+    </div>
+  </div>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/1a307831da.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="header.js"></script>
+  <script src="tamanio-file.js"></script>  
+</body>
+</html>
