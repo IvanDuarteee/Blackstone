@@ -1,0 +1,45 @@
+.listaTexto {
+    text-align: justify;
+
+}
+
+.listaTexto a {
+    text-decoration: none;
+    color: #da1212;
+}
+
+.sampleForms a{
+    text-decoration: none;
+    color: #da1212;
+}
+
+.sampleForms a:hover {
+    color: black;
+}
+
+.transition-fade-in {
+    opacity: 0;
+    transition: opacity 3s ease-in-out;
+  }
+  
+
+
+  /*Diversity*/
+
+
+  /*LegalWarining*/
+
+  .infoGeneral a{
+    text-decoration: none;
+    color: white;
+
+  }
+
+  .avisosLegales a {
+    text-decoration: none;
+    color: #da1212;
+  }
+
+  .avisosLegales {
+    text-align: justify;
+  }
